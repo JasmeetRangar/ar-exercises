@@ -9,5 +9,5 @@ puts "----------"
 @store2 = Store.find_by(id: 2)
 @store1.name = 'BurnBabyBurn'
 @store1.save
-puts Store.find_by(name: 'BurnBabyBurn')
+#puts Store.find_by(name: 'BurnBabyBurn')
 
